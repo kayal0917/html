@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+    <style>
+         body{
+          background-image: url('images.jpg');
+          background-repeat: no-repeat;
+          background-size:cover;
+        }  
+  </style>
+          <!-- <img src="school.jpg" alt="quotes" > -->
+
+</head>
+<body>
+    <center><h1 style="color:Tomato;">Registration Form </h1></center>
+<div>
+    <label for="Name">Student Name</label>
+    <input type="text" for="Name" id="Name"><br>
+</div>
+<div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" pattern=".+@example\.com" size="30" required ></br>
+</div>
+   <div>
+    <label for="pass">Password</label>
+    <input type="password" id="pass" name="password" minlength="8" required></br>
+</div>
+<div>
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required></br>
+</div>
+<div>
+    <label for="Gender">Gender</label><br>
+    <label for= "male">Male</label>
+    <input type="radio" id="Male" name="Gender">
+    <label for= "Female">Female</label>
+    <input type="radio" id="Female" name="Gender" /><br>
+</div>
+<div>
+   <label for="Date">Date of birth:</label>
+    <input type="date" id="start" name="trip-start" value="2020-01-01" min="2000-01-01" max="2024-12-31" /></div>   
+   <div> <label for="avatar">Choose:</label>
+     <input type="file" id="profile" name="profile" accept="image/png, image/jpeg" />
+</div>
+<label for="Percentage">Percentage</label>
+<input type="range" id="Percentage" name="Percentage" min="10" max="100" />
+</div>
+<div>
+    <label for="Location">Location:</label></br>
+    <label for="Madurai">Madurai</label>
+    <input type="checkbox" id="Madurai" name="Location">
+    <label for="chennai">Chennai</label>
+    <input type="checkbox" id="chennai" name="Location"></br>
+    <label for="site-search">Available seats:</label>
+<input type="search" id="site-search" name="q" />
+  
+<button>Search</button>
+  </div>
+ <div>
+        <h3 id= submit style="color:Tomato;"><a href="reg.html">SUBMIT</a></h3>
+        <input type="reset" value="Reset" />
+
+        <input class="button" type="button" value="Next" />
+
+        
+    </div>
+</body>
+</html>

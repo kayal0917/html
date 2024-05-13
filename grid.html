@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url('toy.jpg');
+
+            background-repeat: no-repeat;
+            background-size:cover;
+          }  
+        .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    /* margin-bottom: 70%; */
+
+        }
+
+.menu-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.menu-item h3 {
+    margin-top: 0;
+}
+
+.menu-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-item li {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.menu-item span {
+    padding: 5px;
+}
+/* .menu-item appetizers {
+    
+} */
+
+    </style>
+</head>
+<body class="video" >
+    <!-- <video src="bar.mp4" muted loop autoplay>
+    </video>
+     -->
+      
+    <div class="menu-grid">
+        <div class="menu-item appetizers">
+            <h3>Appetizers</h3>
+            <ul>
+
+                <li><span>Caesar Salad</span><span>Crisp romaine, Parmesan, croutons, Caesar dressing</span><span>$8.99</span></li>
+                <li><span>Bruschetta</span><span>Toasted bread topped with diced tomatoes, basil, garlic, and olive oil</span><span>$7.99</span></li>
+                <li><span>Spring Rolls</span><span>Crispy vegetable spring rolls served with sweet chili sauce</span><span>$6.99</span></li>
+            </ul>
+        </div>
+        <div class="menu-item main-courses">
+            <h3>Main Courses</h3>
+            <ul>
+                <li><span>Grilled Salmon</span><span>Fresh Atlantic salmon grilled to perfection, served with roasted vegetables</span><span>$17.99</span></li>
+                <li><span>Spaghetti Bolognese</span><span>Homemade meat sauce served over spaghetti pasta</span><span>$12.99</span></li>
+                <li><span>Chicken Tikka Masala</span><span>Tender chicken cooked in a creamy tomato sauce, served with basmati rice</span><span>$14.99</span></li>
+            </ul>
+        </div>
+        <div class="menu-item desserts">
+            <h3>Desserts</h3>
+            <ul>
+                <li><span>New York Cheesecake</span><span>Classic creamy cheesecake with a graham cracker crust</span><span>$6.99</span></li>
+                <li><span>Chocolate Lava Cake</span><span>Warm chocolate cake with a molten chocolate center, served with vanilla ice cream</span><span>$8.99</span></li>
+                <li><span>Tiramisu</span><span>Traditional Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese</span><span>$7.99</span></li>
+            </ul>
+        </div>
+        <div class="menu-item main-courses">
+            <h3>Main Courses</h3>
+            <ul>
+                <li><span>Grilled Salmon</span><span>Fresh Atlantic salmon grilled to perfection, served with roasted vegetables</span><span>$17.99</span></li>
+                <li><span>Spaghetti Bolognese</span><span>Homemade meat sauce served over spaghetti pasta</span><span>$12.99</span></li>
+                <li><span>Chicken Tikka Masala</span><span>Tender chicken cooked in a creamy tomato sauce, served with basmati rice</span><span>$14.99</span></li>
+            </ul>
+        </div>
+        <div class="menu-item desserts">
+            <h3>Desserts</h3>
+            <ul>
+                <li><span>New York Cheesecake</span><span>Classic creamy cheesecake with a graham cracker crust</span><span>$6.99</span></li>
+                <li><span>Chocolate Lava Cake</span><span>Warm chocolate cake with a molten chocolate center, served with vanilla ice cream</span><span>$8.99</span></li>
+                <li><span>Tiramisu</span><span>Traditional Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese</span><span>$7.99</span></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
